@@ -56,6 +56,7 @@ def yahoo(update: Update, context: CallbackContext):
             url = link['src']
             text = f'<a href="{url}">Результат №{i + 1}</a>'
             update.message.reply_html(text)
+            
 
 
 with open('token(python 08.11.21).txt') as f:
